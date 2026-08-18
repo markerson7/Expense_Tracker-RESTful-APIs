@@ -80,8 +80,8 @@ cp .env.example .env
 | Variable         | Description                                             | Example                                   |
 |------------------|-----------------------------------------------------------|--------------------------------------------|
 | `PORT`           | Port the server listens on                               | `4000`                                    |
-| `MONGODB_URI`    | MongoDB connection string                                | `mongodb://localhost:27017/expense_tracker` |
-| `JWT_SECRET`     | Secret used to sign JWTs                                 | `7fc1a7ab473bacafd2ce645f7178cd37`        |
+| `MONGODB_URI`    | MongoDB connection string                                | `your-mongoDB-connection-string` |
+| `JWT_SECRET`     | Secret used to sign JWTs                                 | `your-jwt-secret-key`        |
 | `JWT_EXPIRY`     | Token expiry (defaults to `1d` if unset)                 | `1d`                                       |
 | `ADMIN_EMAIL`    | Email address treated as the admin account               | `admin@example.com`                       |
 | `ADMIN_PASSWORD` | Reference password for the admin account (not enforced by code — see note below) | `AdminPass123!`     |
