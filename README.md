@@ -230,4 +230,4 @@ Returns totals per category across **all users' transactions** (not just the adm
 - **`db.js`:** Has a redundant self-referential re-export (`export {connectDB as default} from './db.js'`) — likely a copy-paste artifact worth cleaning up.
 - **Line endings:** Source files currently use CRLF line endings; consider normalizing to LF via `.gitattributes` if the team develops cross-platform.
 
-## License
+
